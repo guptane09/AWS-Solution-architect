@@ -1,0 +1,3 @@
+# Example of cross-account, same-region, S3 replication using customer-managed KMS keys for encryption.
+AWSTemplateFormatVersion: 2010-09-09
+Description: Example of cross-account, same-region, S3 replication using CMK for encyption
