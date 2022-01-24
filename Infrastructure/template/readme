@@ -1,1 +1,12 @@
-sargt
+S3 Cross-Account Replication with KMS
+
+Notes
+•	The source and destination resources should be deployed to the same region in different AWS Accounts.
+•	Deploy the destination account resources first.
+•	The destination S3 bucket must exist before configuring replication on the source bucket.
+•	CloudFormation stack name: replication-demo
+•	Source bucket name syntax: {stack-name}-{source-account}-bucket
+•	Destination bucket name syntax: {stack-name}-{destination-account}-bucket
+
+Testing
+Upload objects to the source account S3 bucket. The objects should be replicated to the destination account S3 bucket.
